@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Inventory\\Play.Inventory.csproj": {}
+  },
+  "projects": {
+    "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\Play.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\Play.Common.csproj",
+        "projectName": "Play.Common",
+        "projectPath": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\Play.Common.csproj",
+        "packagesPath": "C:\\Users\\Taher\\.nuget\\packages\\",
+        "outputPath": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\NuGet.Config",
+          "C:\\Users\\Taher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\Play.Common": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\NuGet\\Play.Common": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages\\": {},
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices": {},
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Inventory\\Play.Inventory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Inventory\\Play.Inventory.csproj",
+        "projectName": "Play.Inventory",
+        "projectPath": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Inventory\\Play.Inventory.csproj",
+        "packagesPath": "C:\\Users\\Taher\\.nuget\\packages\\",
+        "outputPath": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Inventory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\NuGet.Config",
+          "C:\\Users\\Taher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\LocalPackages\\Play.Common": {},
+          "C:\\Users\\Taher\\AppData\\Roaming\\NuGet\\Play.Common": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages\\": {},
+          "C:\\Users\\Taher\\AppData\\UserPackages\\": {},
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices": {},
+          "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\Play.Common.csproj": {
+                "projectPath": "D:\\win10shared\\MicroServices\\Play\\PlayMicroservices\\Play.Common\\Play.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

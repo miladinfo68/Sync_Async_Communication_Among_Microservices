@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog", "Play.Catalog\Play.Catalog.csproj", "{BDC07025-1071-47A6-A8DD-CCF76C86F9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Inventory", "Play.Inventory\Play.Inventory.csproj", "{89BA0DFC-CA64-4825-BF66-3D0932E85772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\Play.Common.csproj", "{0915A90D-0508-4B30-B620-9D4D6C5D9F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDC07025-1071-47A6-A8DD-CCF76C86F9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC07025-1071-47A6-A8DD-CCF76C86F9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC07025-1071-47A6-A8DD-CCF76C86F9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC07025-1071-47A6-A8DD-CCF76C86F9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BA0DFC-CA64-4825-BF66-3D0932E85772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BA0DFC-CA64-4825-BF66-3D0932E85772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BA0DFC-CA64-4825-BF66-3D0932E85772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BA0DFC-CA64-4825-BF66-3D0932E85772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0915A90D-0508-4B30-B620-9D4D6C5D9F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0915A90D-0508-4B30-B620-9D4D6C5D9F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0915A90D-0508-4B30-B620-9D4D6C5D9F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0915A90D-0508-4B30-B620-9D4D6C5D9F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

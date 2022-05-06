@@ -1,0 +1,12 @@
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\bin\Debug\net6.0\Play.Common.deps.json
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\bin\Debug\net6.0\Play.Common.dll
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\bin\Debug\net6.0\ref\Play.Common.dll
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\bin\Debug\net6.0\Play.Common.pdb
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.AssemblyInfoInputs.cache
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.AssemblyInfo.cs
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.csproj.CoreCompileInputs.cache
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.dll
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\ref\Play.Common.dll
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.pdb
+D:\win10shared\MicroServices\Play\PlayMicroservices\Play.Common\obj\Debug\net6.0\Play.Common.csproj.AssemblyReference.cache

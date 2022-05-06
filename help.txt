@@ -1,0 +1,35 @@
+### sync comunication among microservices 
+
+partial failing(because of outage network ,resources ,hardware ,or request time out ,....)
+1- bad solution ===> using manual timeout (counter variable) to avoid waiting client for long time
+2- good solution ===> using polly package(Microsoft.Extensions.Http.Polly) set a timeout duration systematic
+3- better solution ===> AddTransientHttpErrorPolicy ---> add timeout and retry 
+the problem in this way is [resource exhaustion] because might a service be out of access for long time
+and user make a request over and over and any request in seperate thread with suspendig status
+
+4- best solution ===> prevent resource exhaustion by circuit breaker pattern ---> 
+a- circuit breaker pattern mechanism --->some requests send to external service if not response backed
+b- stop sending request and [open circuit] flag to prevent sending more requests
+c- wait a while to external service get healthy
+d- [close the circuit] and send a request again
+e- return success result 
+
+SLA(Service Level Agreement : a commitment between a service provider and client)
+
+
+//https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds
+in common proj
+dotnet pack -p:PackageVersion=x.y.z -o a_path_to_save_nhpkg_file_from_this_project
+ex: dotnet pack -p:PackageVersion=1.0.3 -o ..\..\packages\
+
+in catalog proj
+dotnet nuget add source path_of_created_pkg file -n a_name_4_package
+
+
+
+docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
+
+docker run --rm -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=m1234@567" -p 1433:1433 --name sqlserver -h sqlserver --network=aspnetwork -it mcr.microsoft.com/mssql/server:2019-latest
+
+
+
